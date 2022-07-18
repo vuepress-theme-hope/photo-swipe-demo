@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>PhotoSwipe</title><meta name="description" content="Image preview plugin for VuePress2">
+    <link rel="modulepreload" href="/photo-swipe-demo/assets/app.5021a47c.js"><link rel="modulepreload" href="/photo-swipe-demo/assets/404.html.8d5abfc9.js"><link rel="modulepreload" href="/photo-swipe-demo/assets/404.html.ce538133.js"><link rel="prefetch" href="/photo-swipe-demo/assets/index.html.62c92f1f.js"><link rel="prefetch" href="/photo-swipe-demo/assets/test.html.b12dfee2.js"><link rel="prefetch" href="/photo-swipe-demo/assets/index.html.40b681e2.js"><link rel="prefetch" href="/photo-swipe-demo/assets/test.html.8ce4d0fe.js"><link rel="prefetch" href="/photo-swipe-demo/assets/404.3ebc2fa1.js"><link rel="prefetch" href="/photo-swipe-demo/assets/Layout.bc91bdde.js"><link rel="prefetch" href="/photo-swipe-demo/assets/photoswipe.esm.6a7c1ba7.js">
+    <link rel="stylesheet" href="/photo-swipe-demo/assets/style.6854b18a.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/photo-swipe-demo/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/photo-swipe-demo/assets/app.5021a47c.js" defer></script>
+  </body>
+</html>
